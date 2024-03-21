@@ -49,3 +49,41 @@ th {
     
    
 }
+
+.info-invalida{
+    background-color: red;
+}
+
+
+/* Alinha os elementos lado a lado */
+.nomeTx, .cpfTx, .qtdTx, .produtoTx {
+    display: inline-block;
+    margin-right: 10px; /* Adiciona uma margem entre os elementos */
+}
+
+/* Garante que o último elemento fique abaixo dos primeiros */
+.valorTx, .btEnviar {
+    display: block;
+    clear: both;
+}
+
+/* Alinha os elementos no centro */
+.container {
+    text-align: center;
+}
+
+/* Adiciona uma margem superior ao botão */
+.btEnviar  {
+    margin-top: 10px;
+    
+}
+/* ---------------------------------------- */
+
+
+input[type="text"], input[type="number"], select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+

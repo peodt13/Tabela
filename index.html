@@ -33,15 +33,15 @@
                 <td class="info-nome">Matheus</td>
                 <td class="info-produto">Glock fade</td>
                 <td class="info-qtd">4</td>
-                <td class="info-valor"> 300</td>
+                <td class="info-valor"> 150</td>
                 <td class="info-total"> </td>
             </tr>
             <tr class="linha">
                 <td class="info-nome">Victor</td>
                 <td class="info-produto">P200 azimov</td>
-                <td class="info-qtd">1</td>
-                <td class="info-valor"> 400</td>
-                <td class="info-total"> 400</td>
+                <td class="info-qtd">j</td>
+                <td class="info-valor">7 </td>
+                <td class="info-total"></td>
             </tr>
             <tr class="linha">
                 <td class="info-nome">Pedro</td>
@@ -61,7 +61,47 @@
         
     </table>
 
+    <h1>Adicionar nova emcomenda</h1>
+
+    <form>
+        <div class="container">
+            <div class="nomeTx">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome"><br><br>
+            </div>
+    
+            <div class="produtoTx">
+                <label for="produto">Produto:</label><br>
+                <select id="produto" name="produto">
+                    <option value="baioneta fade">Baioneta Fade</option>
+                    <option value="m4 hall">M4 Hall</option>
+                    <option value="karambit esmerald">Karambit Esmerald</option>
+                </select><br><br>
+            </div>
+    
+            <div class="qtdTx">
+                <label for="qtd">Quantidade:</label><br>
+                <input type="number" id="qtd" name="qtd"><br><br>
+            </div>
+    
+            
+    
+            <div class="valorTx">
+                <label for="valor_unitario">R$ Unitário:</label><br>
+                <input type="text" id="valor_unitario" name="valor_unitario"><br><br>
+            </div>
+    
+            <input class="add-encomenda" type="submit" value="Enviar">
+        </div>
+    </form>
+    
+
+
+
+
+
     <script src="teste.js"></script>
+    <script src="tabela2.js"></script>
 
 </body>
 

@@ -59,6 +59,7 @@ th {
 .nomeTx, .cpfTx, .qtdTx, .produtoTx {
     display: inline-block;
     margin-right: 10px; /* Adiciona uma margem entre os elementos */
+    padding-top: 2%;
 }
 
 /* Garante que o último elemento fique abaixo dos primeiros */
@@ -85,5 +86,14 @@ input[type="text"], input[type="number"], select {
     border: 1px solid #ccc;
     border-radius: 5px;
     width: 200px;
+}
+
+
+.explicacao{
+    align-items: center;
+    text-align: center;
+    padding-top: 1%;
+    color: red;
+    
 }
 
